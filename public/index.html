@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUZAN-MD | Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="bg-pattern"></div>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="logo-container">
+                    <div class="logo-glow"></div>
+                    <img src="https://i.ibb.co/kVSLD0Ms/1f29259c76dbfa6fd7441ff63b5633b0.jpg" alt="MUZAN-MD" class="logo">
+                </div>
+                <h1 class="title">MUZAN-MD</h1>
+                <p class="subtitle">Bot WhatsApp Multi-Device</p>
+                <div class="version">v1.0.0</div>
+            </div>
+
+            <div class="card-body">
+                <div id="qr-container" class="qr-container">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Génération du QR Code...</p>
+                    </div>
+                    <img id="qr-code" class="qr-code hidden" alt="QR Code">
+                </div>
+
+                <div id="connected" class="connected hidden">
+                    <div class="success-icon">✓</div>
+                    <h2>Connecté!</h2>
+                    <p>Le bot est maintenant actif</p>
+                    <div class="status-bar">
+                        <span class="status-dot"></span>
+                        En ligne
+                    </div>
+                </div>
+
+                <div class="instructions">
+                    <h3>📱 Comment connecter:</h3>
+                    <ol>
+                        <li>Ouvrez WhatsApp sur votre téléphone</li>
+                        <li>Allez dans Paramètres → Appareils connectés</li>
+                        <li>Appuyez sur "Connecter un appareil"</li>
+                        <li>Scannez le QR Code ci-dessus</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <div class="creator-info">
+                    <div class="creator-avatar">🥷</div>
+                    <div class="creator-details">
+                        <h4>Créateur</h4>
+                        <p class="creator-name">Ibrahima Sory Sacko</p>
+                        <p class="creator-contact">📞 224 621 96 30 59</p>
+                        <p class="creator-country">🇬🇳 Guinée Conakry</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/224621963059" class="btn-whatsapp" target="_blank">
+                        <span>💬</span> Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">⚡</span>
+                <span>Rapide</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🔒</span>
+                <span>Sécurisé</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🤖</span>
+                <span>100 Commandes</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🌐</span>
+                <span>Multi-Device</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
