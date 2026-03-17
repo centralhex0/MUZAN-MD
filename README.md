@@ -2,6 +2,12 @@
   <img src="https://i.ibb.co/kVSLD0Ms/1f29259c76dbfa6fd7441ff63b5633b0.jpg" width="700" style="border-radius: 20px; box-shadow: 0 0 20px #e53935; animation: pulse 2s infinite;">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Author-CENTRAL--HEX-red?style=for-the-badge"/>
+</p>
+
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&duration=3000&pause=1000&color=E53935&center=true&vCenter=true&width=600&lines=🥷+MUZAN-MD-BOT+🥷;Bot+WhatsApp+Avancé;100+Commandes;DE+Ibrahima+Sory+Sacko" alt="Typing SVG" />
 </h1>
