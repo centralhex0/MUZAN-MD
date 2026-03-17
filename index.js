@@ -192,15 +192,15 @@ async function startBot() {
             case 'help':
             case 'aide':
                 const menuImage = 'https://i.ibb.co/j9FTvpVv/file-00000000126471fdb5a67a97340abc7f.png';
-                
-                
-                await sock.sendMessage(const menuText = `╭━━━❮ *${BOT_NAME}* ❯━━━╮
-┃ 🥷 Créateur : ${OWNER_NAME}
-┃ 📞 Contact : ${OWNER_NUMBER}
-┃ 🌍 Pays : ${OWNER_COUNTRY}
-┃ 🤖 Version : ${VERSION}
-┃ ⚡ Préfixe : ${PREFIX}
+                const menuText = `╭━━━❮ *${BOT_NAME}* ❯━━━╮
+┃ 🥷 *Créateur:* ${OWNER_NAME}
+┃ 📞 *Contact:* ${OWNER_NUMBER}
+┃ 🌍 *Pays:* ${OWNER_COUNTRY}
+┃ 🤖 *Version:* ${VERSION}
+┃ ⚡ *Préfixe:* ${PREFIX}
 ╰━━━━━━━━━━━━━━━━━━━━╯
+
+
 
 🥷──『 𝗜𝗡𝗙𝗢 』──🥷
 │ ⬡ .menu → le menu
