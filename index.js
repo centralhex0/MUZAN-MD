@@ -424,7 +424,7 @@ async function startBot() {
 
 ╰━━━❮ système central hex ❯━━━╯`;
                 
-                from, { 
+                await sock.sendMessage(from, { 
                     image: { url: menuImage }, 
                     caption: menuText 
                 }, { quoted: msg });
