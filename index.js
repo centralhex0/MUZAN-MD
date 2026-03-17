@@ -192,58 +192,237 @@ async function startBot() {
             case 'help':
             case 'aide':
                 const menuImage = 'https://i.ibb.co/j9FTvpVv/file-00000000126471fdb5a67a97340abc7f.png';
-                const menuText = `╭━━━❮ *${BOT_NAME}* ❯━━━╮
-┃ 🥷 *Créateur:* ${OWNER_NAME}
-┃ 📞 *Contact:* ${OWNER_NUMBER}
-┃ 🌍 *Pays:* ${OWNER_COUNTRY}
-┃ 🤖 *Version:* ${VERSION}
-┃ ⚡ *Préfixe:* ${PREFIX}
+                
+                
+                await sock.sendMessage(const menuText = `╭━━━❮ *${BOT_NAME}* ❯━━━╮
+┃ 🥷 Créateur : ${OWNER_NAME}
+┃ 📞 Contact : ${OWNER_NUMBER}
+┃ 🌍 Pays : ${OWNER_COUNTRY}
+┃ 🤖 Version : ${VERSION}
+┃ ⚡ Préfixe : ${PREFIX}
 ╰━━━━━━━━━━━━━━━━━━━━╯
 
-*📋 MENU PRINCIPAL*
+🥷──『 𝗜𝗡𝗙𝗢 』──🥷
+│ ⬡ .menu → le menu
+│ ⬡ .ping → la vitesse
+│ ⬡ .owner → le créateur
+│ ⬡ .status → état du bot
+│ ⬡ .runtime → temps actif
+│ ⬡ .speed → performance
+╰─────────────🥷
 
-*🤖 INFO*
-.menu, .ping, .owner, .status, .runtime, .speed
+🥷──『 𝗚𝗥𝗢𝗨𝗣𝗘 』──🥷
+│ ⬡ .tagall → mentionner tous
+│ ⬡ .hidetag → mention cachée
+│ ⬡ .promote → rendre admin
+│ ⬡ .demote → retirer admin
+│ ⬡ .kick → exclure membre
+│ ⬡ .add → ajouter membre
+│ ⬡ .group → ouvrir/fermer
+│ ⬡ .gname → changer nom
+│ ⬡ .gdesc → description
+│ ⬡ .gpp → changer photo
+│ ⬡ .revoke → reset lien
+│ ⬡ .antilink → anti-lien
+│ ⬡ .antibot → anti-bot
+│ ⬡ .welcome → msg bienvenue
+│ ⬡ .left → msg départ
+│ ⬡ .setwelcome → dfn bienvenue
+│ ⬡ .setleft → définir départ
+│ ⬡ .warn → avertir membre
+│ ⬡ .warns → voir warns
+│ ⬡ .resetwarn → reset warns
+│ ⬡ .ban → bannir
+│ ⬡ .unban → débannir
+│ ⬡ .banned → liste bannis
+│ ⬡ .mute → muter groupe
+│ ⬡ .unmute → démuter
+│ ⬡ .admins → voir admins
+│ ⬡ .link → lien groupe
+│ ⬡ .invite → inviter
+╰─────────────🥷
 
-*👥 GROUPE*
-.tagall, .hidetag, .promote, .demote, .kick, .add, .group, .gname, .gdesc, .gpp, .revoke, .antilink, .antibot, .welcome, .left, .setwelcome, .setleft, .warn, .warns, .resetwarn, .ban, .unban, .banned, .mute, .unmute, .admins, .link, .invite
+🥷──『 𝗗𝗜𝗩𝗘𝗥𝗧𝗜𝗦𝗦𝗘𝗠𝗘𝗡𝗧 』──🥷
+│ ⬡ .sticker → créer sticker
+│ ⬡ .s → sticker rapide
+│ ⬡ .toimg → sticker → image
+│ ⬡ .tovid → sticker → vidéo
+│ ⬡ .tomp3 → vidéo → audio
+│ ⬡ .tourl → héberger fichier
+│ ⬡ .emojimix → mix emoji
+│ ⬡ .emojimix2 → mix v2
+│ ⬡ .smeme → créer meme
+│ ⬡ .trigger → effet trigger
+│ ⬡ .wasted → effet GTA
+│ ⬡ .wanted → effet wanted
+│ ⬡ .jail → effet prison
+│ ⬡ .gay → effet rainbow
+│ ⬡ .glass → effet verre
+│ ⬡ .passed → effet validé
+│ ⬡ .comrade → effet comrade
+│ ⬡ .trash → effet poubelle
+│ ⬡ .blur → flou
+│ ⬡ .pixelate → pixel
+│ ⬡ .invert → inverser
+│ ⬡ .sepia → filtre sépia
+│ ⬡ .brightness → luminosité
+│ ⬡ .contrast → contraste
+│ ⬡ .circle → cercle
+╰─────────────🥷
 
-*🎮 DIVERTISSEMENT*
-.sticker, .s, .toimg, .tovid, .tomp3, .tourl, .emojimix, .emojimix2, .smeme, .trigger, .wasted, .wanted, .jail, .gay, .glass, .passed, .comrade, .trash, .blur, .pixelate, .invert, .sepia, .brightness, .contrast, .circle
+🥷──『 𝗢𝗨𝗧𝗜𝗟𝗦 』──🥷
+│ ⬡ .translate → traduire
+│ ⬡ .tr → traduction rapide
+│ ⬡ .tts → texte → voix
+│ ⬡ .say → parler
+│ ⬡ .calc → calcul
+│ ⬡ .math → math
+│ ⬡ .weather → météo
+│ ⬡ .news → actualités
+│ ⬡ .wiki → recherche wiki
+│ ⬡ .google → recherche
+│ ⬡ .playstore → apps
+│ ⬡ .ytsearch → youtube
+│ ⬡ .pinterest → images
+│ ⬡ .image → recherche image
+│ ⬡ .wallpaper → fond écran
+│ ⬡ .quote → citation
+│ ⬡ .fakereply → faux msg
+│ ⬡ .readmore → texte caché
+│ ⬡ .spoiler → spoiler
+│ ⬡ .poll → sondage
+│ ⬡ .vote → voter
+│ ⬡ .delvote → supprimer vote
+│ ⬡ .checkvote → voir votes
+╰─────────────🥷
 
-*🛠️ OUTILS*
-.translate, .tr, .tts, .say, .calc, .math, .weather, .news, .wiki, .google, .playstore, .ytsearch, .pinterest, .image, .wallpaper, .quote, .fakereply, .readmore, .spoiler, .poll, .vote, .delvote, .checkvote
+🥷──『 𝗧𝗘𝗟𝗘𝗖𝗛𝗔𝗥𝗚𝗘𝗠𝗘𝗡𝗧 』──🥷
+│ ⬡ .tiktok → télécharger tiktok
+│ ⬡ .tt → tiktok rapide
+│ ⬡ .tiktokmp3 → tiktok audio
+│ ⬡ .facebook → télécharger fb
+│ ⬡ .fb → fb rapide
+│ ⬡ .instagram → télécharger ig
+│ ⬡ .ig → ig rapide
+│ ⬡ .twitter → télécharger X
+│ ⬡ .x → X rapide
+│ ⬡ .ytmp3 → youtube mp3
+│ ⬡ .ytmp4 → youtube mp4
+│ ⬡ .play → musique
+│ ⬡ .mediafire → télécharger
+│ ⬡ .zippyshare → télécharger
+│ ⬡ .gdrive → télécharger
+╰─────────────🥷
 
-*📥 TÉLÉCHARGEMENT*
-.tiktok, .tt, .tiktokmp3, .facebook, .fb, .instagram, .ig, .twitter, .x, .ytmp3, .ytmp4, .play, .mediafire, .zippyshare, .gdrive
+🥷──『 𝗥𝗣𝗚 & É𝗖𝗢𝗡𝗢𝗠𝗜𝗘 』──🥷
+│ ⬡ .daily → récompense
+│ ⬡ .claim → récupérer gain
+│ ⬡ .work → travailler
+│ ⬡ .mine → miner
+│ ⬡ .fish → pêcher
+│ ⬡ .hunt → chasser
+│ ⬡ .adventure → aventure
+│ ⬡ .heal → se soigner
+│ ⬡ .profile → profil
+│ ⬡ .inventory → inventaire
+│ ⬡ .shop → boutique
+│ ⬡ .buy → acheter
+│ ⬡ .sell → vendre
+│ ⬡ .pay → payer
+│ ⬡ .balance → argent
+│ ⬡ .bank → banque
+│ ⬡ .deposit → déposer
+│ ⬡ .withdraw → retirer
+│ ⬡ .rob → voler
+│ ⬡ .slot → machine à sous
+│ ⬡ .gamble → parier
+│ ⬡ .leaderboard → classement
+│ ⬡ .transfer → transfert
+╰─────────────🥷
 
-*🎭 RPG & ÉCONOMIE*
-.daily, .claim, .work, .mine, .fish, .hunt, .adventure, .heal, .profile, .inventory, .inv, .shop, .buy, .sell, .pay, .balance, .bal, .bank, .deposit, .withdraw, .rob, .slot, .gamble, .leaderboard, .lb, .transfer
+🥷──『 𝗝𝗘𝗨𝗫 』──🥷
+│ ⬡ .ttt → morpion
+│ ⬡ .tictactoe → jeu xo
+│ ⬡ .delttt → reset jeu
+│ ⬡ .tebakkata → deviner mot
+│ ⬡ .tebaklagu → deviner musique
+│ ⬡ .family100 → quiz famille
+│ ⬡ .kuismath → quiz math
+│ ⬡ .suit → pierre papier
+│ ⬡ .asahotak → réflexion
+│ ⬡ .tebakangka → deviner chiffre
+╰─────────────🥷
 
-*🎮 JEUX*
-.ttt, .tictactoe, .delttt, .tebakgambar, .tebakkata, .tebaklirik, .tebaklagu, .caklontong, .family100, .kuismath, .suit, .suitpvp, .math, .asahotak, .siapakahaku, .susunkata, .tebakkimia, .tebakbendera, .tebakangka
+🥷──『 𝗙𝗨𝗡 』──🥷
+│ ⬡ .hug → câlin
+│ ⬡ .kiss → bisous
+│ ⬡ .slap → gifler
+│ ⬡ .pat → caresser
+│ ⬡ .cuddle → câliner
+│ ⬡ .poke → poke
+│ ⬡ .tickle → chatouiller
+│ ⬡ .smile → sourire
+│ ⬡ .wave → saluer
+│ ⬡ .dance → danser
+│ ⬡ .cry → pleurer
+│ ⬡ .happy → heureux
+│ ⬡ .wink → clin d’œil
+╰─────────────🥷
 
-*✨ FUN*
-.attack, .kill, .hug, .kiss, .slap, .pat, .cuddle, .poke, .tickle, .smug, .bonk, .yeet, .blush, .smile, .wave, .highfive, .handhold, .nom, .bite, .glomp, .happy, .wink, .dance, .cringe, .cry, .awoo, .neko, .waifu, .shinobu, .megumin, .bully
+🥷──『 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗜𝗢𝗡 』──🥷
+│ ⬡ .delete → supprimer msg
+│ ⬡ .quoted → voir message
+│ ⬡ .listonline → membres en lg
+│ ⬡ .getbio → bio utilisateur
+│ ⬡ .whois → infos user
+│ ⬡ .inspect → inspecter
+│ ⬡ .check → vérifier
+╰─────────────🥷
 
-*🔧 MODÉRATION*
-.delete, .del, .quoted, .q, .getquotedobj, .listonline, .liston, .common, .getbio, .whois, .inspect, .check
+🥷──『 𝗔𝗨𝗗𝗜𝗢 』──🥷
+│ ⬡ .bass → effet bass
+│ ⬡ .blown → blown
+│ ⬡ .deep → voix grave
+│ ⬡ .fast → rapide
+│ ⬡ .slow → lent
+│ ⬡ .reverse → inversé
+│ ⬡ .robot → robot
+│ ⬡ .nightcore → nightcore
+│ ⬡ .smooth → smooth
+│ ⬡ .volume → volume
+╰─────────────🥷
 
-*🎵 AUDIO*
-.bass, .blown, .deep, .earrape, .fast, .fat, .nightcore, .reverse, .robot, .slow, .smooth, .tupai, .vibra, .volume
+🥷──『 𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗜𝗦𝗦𝗘𝗨𝗥 』──🥷
+│ ⬡ .togif → vidéo → gif
+│ ⬡ .toaudio → vidéo → audio
+│ ⬡ .tovideo → audio → vidéo
+│ ⬡ .viewonce → voir unique
+╰─────────────🥷
 
-*📝 CONVERTISSEUR*
-.togif, .toav, .tovn, .toptt, .toaudio, .tovideo, .toonce, .viewonce
+🥷──『 𝗔𝗗𝗠𝗜𝗡 』──🥷
+│ ⬡ .bc → broadcast
+│ ⬡ .bcgc → broadcast groupes
+│ ⬡ .setppbot → photo bot
+│ ⬡ .setnamebot → nom bot
+│ ⬡ .setbiobot → bio bot
+│ ⬡ .block → bloquer user
+│ ⬡ .unblock → débloquer
+│ ⬡ .clearall → tt supprimer
+│ ⬡ .clearchat → nettoyer chat
+╰─────────────🥷
 
-*🔒 ADMIN*
-.bc, .broadcast, .bcgc, .setppbot, .setnamebot, .setbiobot, .block, .unblock, .clearall, .clearchat
+🥷──『 𝗣𝗔𝗥𝗔𝗠𝗘𝗧𝗥𝗘𝗦 』──🥷
+│ ⬡ .autosticker → auto sticker
+│ ⬡ .autoreact → auto réaction
+│ ⬡ .antidelete → anti suppression
+│ ⬡ .antiviewonce → anti view once
+│ ⬡ .antispam → anti spam
+│ ⬡ .nsfw → mode nsfw
+╰─────────────🥷
 
-*⚙️ PARAMÈTRES*
-.autosticker, .autoreact, .antidelete, .antiviewonce, .antispam, .nsfw
-
-╰━━━❮ *Tapez .help <commande>* ❯━━━╯`;
+╰━━━❮ système central hex ❯━━━╯`;
                 
-                await sock.sendMessage(from, { 
+                from, { 
                     image: { url: menuImage }, 
                     caption: menuText 
                 }, { quoted: msg });
