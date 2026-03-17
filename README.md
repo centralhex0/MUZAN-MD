@@ -56,3 +56,28 @@
 2. Ouvre l'URL fournie
 3. Scan le QR Code avec WhatsApp
 4. Le bot est connecté ! ✅
+---
+
+## 🤝 Rejoignez-nous
+
+<p align="center">
+  <b>🔥 Rejoignez la communauté CENTRAL-HEX 🔥</b>
+</p>
+
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VbC8YkY7oQhiOiiSpy1z">
+    <img src="https://img.shields.io/badge/📢%20CHAÎNE%20WHATSAPP-Rejoindre-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://chat.whatsapp.com/Kipqc4A7lt4E7GCd112HvG?mode=gi_t">
+    <img src="https://img.shields.io/badge/👥%20GROUPE%20WHATSAPP-Rejoindre-128C7E?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=18&center=true&vCenter=true&width=500&lines=Rejoins+la+team+CENTRAL-HEX+🥷;Ne+rate+aucune+mise+à+jour+🔥" />
+</p>
+
+---
