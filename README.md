@@ -51,12 +51,11 @@
 
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=500&color=FFC107&center=false&vCenter=true&width=300&lines=📱+Connexion" alt="Connection" />
 
-```bash
+bash
 1. Déploie le bot sur Railway/Render/Replit
 2. Ouvre l'URL fournie
 3. Scan le QR Code avec WhatsApp
 4. Le bot est connecté ! ✅
----
 
 ## 🤝 Rejoignez-nous
 
